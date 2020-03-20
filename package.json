@@ -8,18 +8,22 @@
 	"engines": {
 		"vscode": "^1.43.0"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lhybdv/goto-recent-files"
+	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:extension.gotoRecentFiles"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"command": "extension.gotoRecentFiles",
+				"title": "Go to recent files"
 			}
 		]
 	},
